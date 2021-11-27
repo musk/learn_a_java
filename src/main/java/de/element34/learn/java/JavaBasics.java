@@ -15,5 +15,8 @@ public class JavaBasics {
         String message = "Hello I am your first Java program!";
         // Print a message to the commandline
         System.out.println(message);
+        // An integer variable
+        int number = 2;
+        System.out.println("Number = " + number);
     }
 }
