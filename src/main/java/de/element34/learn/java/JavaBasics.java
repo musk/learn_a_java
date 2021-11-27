@@ -11,7 +11,9 @@ public class JavaBasics {
      * It always has a String array as a parameter and returns nothing.
      */
     public static void main(String[] args) {
+        // Define a variable to hold the message
+        String message = "Hello I am your first Java program!";
         // Print a message to the commandline
-        System.out.println("Hello I am your first Java program!");
+        System.out.println(message);
     }
 }
