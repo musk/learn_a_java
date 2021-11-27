@@ -26,5 +26,15 @@ public class JavaBasics {
         System.out.println("4 / " + number + " = " + division);
         int substraction = 5 - number;
         System.out.println("5 - " + number + " = " + substraction);
+        double realnumber = 2.2;
+        System.out.println("A real number: " + realnumber);
+        boolean truthValue = false;
+        System.out.println("A boolean value: " + truthValue);
+        truthValue = true;
+        System.out.println("And with a true value: " + truthValue);
+        short smallNumbers = 127;
+        System.out.println("Small numbers < 128: " + smallNumbers);
+        byte aByte = 0x01;
+        System.out.println("A byte is a sinlge 8 bit value: " + aByte);
     }
 }
