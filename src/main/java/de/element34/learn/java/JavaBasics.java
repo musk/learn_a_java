@@ -18,5 +18,13 @@ public class JavaBasics {
         // An integer variable
         int number = 2;
         System.out.println("Number = " + number);
+        int addition = 5 + number;
+        System.out.println("5 + " + number + " = " + addition);
+        int multiplication = 5 * number;
+        System.out.println("5 * " + number + " = " + multiplication);
+        int division = 4 / number;
+        System.out.println("4 / " + number + " = " + division);
+        int substraction = 5 - number;
+        System.out.println("5 - " + number + " = " + substraction);
     }
 }
